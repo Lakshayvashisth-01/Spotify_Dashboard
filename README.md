@@ -1,6 +1,3 @@
-# Spotify_Dashboard
----
-
 # 🎧 Spotify Dashboard
 
 ## 📌 Project Overview
