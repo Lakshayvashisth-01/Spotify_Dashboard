@@ -148,26 +148,24 @@ Would you like a matching slide or infographic summarizing these features for pr
 
 ## 📂 Folder Structure
 ```
-Spotify-Dashboard/
+Spotify_Dashboard/
 │
-├── Dataset/
-│   └── spotify_data.csv
+├── 📊 Dashboard/
+│   └── Spotify.pbit                  # Power BI template file for the dashboard
 │
-├── Dashboard/
-│   └── Spotify.pbix
+├── 📈 Dataset/
+│   └── spotify-top-50-world.xlsx     # Raw Spotify data used for analysis
 │
-├── Images/
-│   └── dashboard_preview.png
+├── 🖼️ Images/
+│   ├── Image 1.png                   # Dashboard preview or section screenshot
+│   ├── Image 2.png                   # Additional visual or chart
+│   ├── Image 3.png                   # Playback panel or artist insights
+│   └── Image 4.png                   # Monthly trends or popularity graph
 │
-└── README.md
+└──  📄 Documentation/
+   └── README.md                     # Project overview, features, and usage guide
+
 ```
-
----
-
-## 📸 Preview
-> ![Dashboard Preview](Images/dashboard_preview.png)
-
----
 
 ## 📌 How to Use
 1. Clone the repository.
