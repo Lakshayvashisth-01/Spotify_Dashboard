@@ -51,6 +51,101 @@ The dashboard is divided into intuitive panels that simulate a Spotify-like inte
 
 ---
 
+## 🌟 Dashboard Highlights
+
+### 🎧 1. **Playback Simulation Panel**
+- **Feature**: Displays the currently playing song with album art, title, artist, and playback controls.
+- **Example**: “MAMIII” by Becky G & KAROL G or “It Goes Like Nanana” by Peggy Gou shown with a play/pause button and duration bar.
+- **Purpose**: Adds realism and user engagement, mimicking the Spotify interface.
+
+---
+
+### 📊 2. **Core Metrics Panel**
+- **Feature**: Key performance indicators (KPIs) summarizing the dataset.
+- **Examples**:
+  - **Total Songs**: 452
+  - **Total Artists**: 214
+  - **Average Song Length**: 89.46 seconds
+  - **Average Popularity**: 53.6
+- **Purpose**: Provides a quick snapshot of the user's music library and listening behavior.
+
+---
+
+### 🏆 3. **Top Songs & Artists**
+- **Feature**: Lists the most played songs and frequently appearing artists.
+- **Examples**:
+  - Top Songs: “It Goes Like Nanana”, “16 CARRIAGES”, “I Remember Everything”
+  - Top Artists: Peggy Gou, Beyoncé, Zach Bryan, Charli XCX
+- **Purpose**: Highlights user preferences and listening trends.
+
+---
+
+### 📈 4. **Song Distribution by Artist**
+- **Feature**: Bar chart showing how many songs each artist contributes.
+- **Example**: Ariana Grande appears with 2 songs, others with 1 each.
+- **Purpose**: Reveals artist dominance and diversity in the playlist.
+
+---
+
+### 🧩 5. **Album Type Breakdown**
+- **Feature**: Pie chart showing song distribution by album type.
+- **Examples**:
+  - Singles: 91%
+  - Albums: 9%
+- **Purpose**: Indicates whether the user prefers quick releases or full-length albums.
+
+---
+
+### 🔞 6. **Explicit vs Non-Explicit Content**
+- **Feature**: Pie chart comparing explicit and clean songs.
+- **Examples**:
+  - Explicit: 18%
+  - Non-Explicit: 82%
+- **Purpose**: Useful for content filtering or understanding lyrical preferences.
+
+---
+
+### 📊 7. **Popularity Analysis**
+- **Feature**: Bar chart showing average popularity by album type.
+- **Examples**:
+  - Singles: ~80
+  - Albums: ~70
+- **Purpose**: Evaluates how different formats perform in terms of popularity.
+
+---
+
+### 📅 8. **Monthly & Quarterly Trends**
+- **Feature**: Line and bar charts showing average popularity and distinct song counts over time.
+- **Examples**:
+  - May has the highest distinct song count.
+  - Popularity trends fluctuate between March and April.
+- **Purpose**: Tracks listening habits and new song additions across months or quarters.
+
+---
+
+### 📆 9. **Songs by Year**
+- **Feature**: Bar chart showing song distribution by release year.
+- **Example**: 2023 has the highest number of songs.
+- **Purpose**: Reveals whether the user prefers newer or older music.
+
+---
+
+### 📐 10. **Data Model Integration**
+- **Feature**: Fields like `Song`, `Artist`, `Album Type`, `Popularity`, `Play Count`, `Month`, `Year` are used for slicing and filtering.
+- **Purpose**: Enables dynamic filtering and deeper analysis.
+
+---
+
+## ✅ Summary of Benefits
+- **Interactive**: Users can explore trends with slicers and toggles.
+- **Visual**: Clean layout with Spotify branding and album art.
+- **Insightful**: Combines personal listening data with analytical depth.
+- **Customizable**: Easily adaptable to other datasets or themes.
+
+Would you like a matching slide or infographic summarizing these features for presentation or documentation?
+
+---
+
 ## 📂 Folder Structure
 ```
 Spotify-Dashboard/
@@ -59,7 +154,7 @@ Spotify-Dashboard/
 │   └── spotify_data.csv
 │
 ├── Dashboard/
-│   └── SpotifyDashboard.pbix
+│   └── Spotify.pbix
 │
 ├── Images/
 │   └── dashboard_preview.png
