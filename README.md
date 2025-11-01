@@ -1,6 +1,4 @@
 # Spotify_Dashboard
-Sure, Singh! Here's a detailed and well-structured `README.md` content for your **Spotify Dashboard** project on GitHub, based on the visuals and features from your Power BI dashboard:
-
 ---
 
 # 🎧 Spotify Dashboard
